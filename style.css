@@ -1,0 +1,100 @@
+
+:root {
+    --bg-color: hsl(0, 0%, 99%);
+    --text-color: #333;
+    --bg-nav-color: #333;
+    --white-color: #fdfdfd;
+    --shadow-color: rgba(0, 0, 0 .2);
+}
+
+.header {
+    background: var(--bg-nav-color);
+}
+
+.navbar-brand {
+    position: relative;
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-right: 3.5rem;
+}
+
+.main-text{
+    text-align: center;
+    color: var(--text-color);
+}
+
+footer {
+    background-color: var(--bg-nav-color);
+    padding: 10px;
+    text-align: center;
+    color: var(--white-color);
+  }
+
+.body-form {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #f0f0f0;
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.form-group input, .form-group select, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.form-group textarea {
+    resize: vertical;
+}
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.form-group button:hover {
+    background-color: #0056b3;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 1.5rem;
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+}
+.social-icons a:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+.bg-facebook { background-color: #3b5998; }
+.bg-twitter { background-color: #1da1f2; }
+.bg-instagram { background-color: #e1306c; }
+.bg-email { background-color: #ff0000; }
+.bg-linkedin { background-color: #0077b5; }
